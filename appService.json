@@ -1,0 +1,18 @@
+{
+  "location": "westus",
+  "name": "gozureservice",
+  "kind": "app",
+  "sku": "F1",
+  "properties": {
+    "enabled": true,
+    "netFrameworkVersion": "v4.0",
+    "gitHubActionWorkflowFilePathInRepo": ".github/workflows/azure-pipelines.yml",
+    "runtimeStack": "GO:1.13",
+    "appSettings": [
+      {
+        "name": "ASPNETCORE_ENVIRONMENT",
+        "value": "Production"
+      }
+    ]
+  }
+}
